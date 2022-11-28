@@ -1,7 +1,7 @@
 package com.example.renew;
 
 public class Wellbeing extends Habit {
-    private String[] wellbeingSub = {
+    public String[] wellbeingSub = {
         "Breathing",
         "Meditation",
         "Read a Book",
@@ -12,7 +12,7 @@ public class Wellbeing extends Habit {
     };
 
     public Wellbeing (String name, String description, String[] habitCategory) {
-        super(name, description, habitCategory);
+        super(name, description);
     }
 
     @Override

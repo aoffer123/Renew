@@ -11,7 +11,7 @@ public class AroundTheHouse extends Habit {
     };
 
     public AroundTheHouse (String name, String description, String[] habitCategory) {
-        super(name, description, habitCategory);
+        super(name, description);
     }
 
     @Override

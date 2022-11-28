@@ -19,10 +19,10 @@ public class Habit {
         
     }
     
-    public Habit(String name, String description, String[] habitCategory) {
+    public Habit(String name, String description) {
         this.name = name;
         this.description = description;
-        this.habitCategory = habitCategory;
+        
     }
 
     public void setName(String name) {

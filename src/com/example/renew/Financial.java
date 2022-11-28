@@ -10,7 +10,7 @@ public class Financial extends Habit {
     };
 
     public Financial (String name, String description, String[] habitCategory) {
-        super(name, description, habitCategory);
+        super(name, description);
         
     }
 

@@ -1,17 +1,21 @@
 package com.example.renew;
 
+
+
+
 public class Health extends Habit {
-    private String[] healthSub = {
+   public String[] healthSub = {
         "Drink Water",
         "Eat Fruits",
         "Eat Vegetables",
         "No sugar",
-        "Sleep early",
+        "Sleep early"
         
-    };
+   };
+   
 
     public Health (String name, String description, String[] habitCategory) {
-        super(name, description, habitCategory);
+        super(name, description);
     }
 
     @Override
@@ -46,8 +50,8 @@ public class Health extends Habit {
     }
     
 
-    public void sethealthSub(String[] exerciseSub) {
-        this.healthSub = exerciseSub;
+    public void setItems(String[] healthSub) {
+        this.healthSub = healthSub;
 
     }
 

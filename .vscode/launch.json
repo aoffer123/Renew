@@ -9,7 +9,7 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
-            "mainClass": "com.example.renew.Main",
+            "mainClass": "com.example.renew.MainOld",
             "projectName": "Renew_4e63723a",
             "vmArgs": "--module-path C:/Users/allis/OneDrive/Desktop/javafx-sdk-19/lib --add-modules javafx.controls,javafx.media,javafx.fxml,javafx.base,javafx.graphics,javafx.swing,javafx.web"
         }
